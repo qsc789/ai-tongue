@@ -1,0 +1,37 @@
+server:
+  port: 8080
+aiTongue:
+  # 开发者账号
+  devId: test
+  # 开发者密钥
+  devSecret: xxxxxx
+  # 获取access_token地址
+  getTokenUrl: https://www.ai-tongue.com/backend/auth/invoker/pwd/signin
+  # 脏腑健康api-检测地址
+  tongueTaskUrl: https://www.ai-tongue.com/backend/interfacesvc/i/tongue/secret/task
+  # 脏腑健康api-问诊地址
+  tongueInquiryTaskUrl: https://www.ai-tongue.com/backend/interfacesvc/i/tongue/secret/task/inquiryAnswer
+  # 体质健康api-检测地址
+  tongueSimpleTaskUrl: https://www.ai-tongue.com/backend/interfacesvc/i/tongue/secret/task/simple
+  # 两段式检测-验证舌象地址
+  preTongueUrl: https://www.ai-tongue.com/backend/interfacesvc/i/tongue/secret/task/pre
+  # 两段式检测-脏腑健康api-检测地址
+  preTongueTaskUrl: https://www.ai-tongue.com/backend/interfacesvc/i/tongue/secret/task/do
+  # 两段式检测-体质健康api-检测地址
+  preTongueSimpleTaskUrl: https://www.ai-tongue.com/backend/interfacesvc/i/tongue/secret/task/do/simple
+  # 两段式检测-舌象特征api-检测地址
+  preTongueCharacterTaskUrl: https://www.ai-tongue.com/backend/interfacesvc/i/tongue/secret/task/do/character
+  # 面诊-完整
+  faceTaskUrl: https://www.ai-tongue.com/backend/interfacesvc/i/face/task
+  # 面诊-阶段一
+  facePreTaskUrl: https://www.ai-tongue.com/backend/interfacesvc/i/face/task/pre
+  # 面诊-阶段二
+  faceDoTaskUrl: https://www.ai-tongue.com/backend/interfacesvc/i/face/task/do
+  # aesKey
+  aesKey: xxxxxx
+  # 开发者rsa公钥
+  devRsaPublicKey: xxxxxx
+  # 开发者rsa私钥，请妥善保管
+  devRsaPrivateKey: xxxxxx
+  # 中医舌诊rsa平台公钥
+  rsaPublicKey: xxxxxx
